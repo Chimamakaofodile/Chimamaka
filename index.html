@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chimamaka Ofodile | Salesforce Administrator</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Custom Styles -->
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -74,7 +70,6 @@
 </head>
 <body class="antialiased" style="background-image: radial-gradient(circle at top, rgba(99, 102, 241, 0.1), transparent 35%), radial-gradient(circle at bottom right, rgba(20, 184, 166, 0.1), transparent 40%);">
 
-    <!-- Header & Navigation -->
     <header class="bg-gray-900/70 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-2xl shadow-black/20">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold gradient-text">CO</a>
@@ -82,18 +77,18 @@
                 <a href="#home" class="nav-link text-gray-300">Home</a>
                 <a href="#about" class="nav-link text-gray-300">About</a>
                 <a href="#skills" class="nav-link text-gray-300">Skills</a>
+                <a href="#certifications" class="nav-link text-gray-300">Certifications</a>
                 <a href="#portfolio" class="nav-link text-gray-300">Portfolio</a>
                 <a href="#contact" class="btn-primary text-white font-semibold py-2 px-5 rounded-lg shadow-lg shadow-indigo-500/20">Contact</a>
             </nav>
             <div class="md:hidden">
-                 <a href="#contact" class="btn-primary text-white font-semibold py-2 px-4 rounded-lg shadow-md text-sm">Contact</a>
+                    <a href="#contact" class="btn-primary text-white font-semibold py-2 px-4 rounded-lg shadow-md text-sm">Contact</a>
             </div>
         </div>
     </header>
 
     <main class="pt-24">
 
-        <!-- Hero Section -->
         <section id="home" class="container mx-auto px-6 py-24 md:py-32 flex flex-col md:flex-row items-center">
             <div class="md:w-3/5 text-center md:text-left mb-12 md:mb-0">
                 <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
@@ -117,7 +112,6 @@
             </div>
         </section>
 
-        <!-- About Me Section -->
         <section id="about" class="py-20 bg-gray-900/50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
@@ -132,7 +126,6 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16">
@@ -140,7 +133,6 @@
                     <p class="text-gray-400 mt-2">My expertise across the Salesforce platform.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Skill Card 1 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
                         <div class="flex items-center mb-4">
                              <i class="fa-solid fa-robot text-3xl text-indigo-400 mr-4"></i>
@@ -148,7 +140,6 @@
                         </div>
                         <p class="text-gray-400">Expert in creating complex automation using Flow, Process Builder, and Workflow Rules to streamline business processes and improve efficiency.</p>
                     </div>
-                    <!-- Skill Card 2 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
                         <div class="flex items-center mb-4">
                             <i class="fa-solid fa-chart-line text-3xl text-sky-400 mr-4"></i>
@@ -156,44 +147,71 @@
                         </div>
                         <p class="text-gray-400">Skilled in data management, migration with Data Loader, and creating insightful reports and dashboards to drive strategic decisions.</p>
                     </div>
-                    <!-- Skill Card 3 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
-                         <div class="flex items-center mb-4">
-                           <i class="fa-solid fa-bolt-lightning text-3xl text-amber-400 mr-4"></i>
-                            <h3 class="text-xl font-bold text-white">Integration Expertise</h3>
-                        </div>
+                             <div class="flex items-center mb-4">
+                               <i class="fa-solid fa-bolt-lightning text-3xl text-amber-400 mr-4"></i>
+                                <h3 class="text-xl font-bold text-white">Integration Expertise</h3>
+                            </div>
                         <p class="text-gray-400">Knowledgeable in connecting Salesforce with external systems using APIs and middleware platforms to create a unified tech stack.</p>
                     </div>
-                    <!-- Skill Card 4 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
                         <div class="flex items-center mb-4">
                            <i class="fa-solid fa-shield-halved text-3xl text-teal-400 mr-4"></i>
-                            <h3 class="text-xl font-bold text-white">Security & Compliance</h3>
-                        </div>
+                                <h3 class="text-xl font-bold text-white">Security & Compliance</h3>
+                            </div>
                         <p class="text-gray-400">Adept at implementing robust security models with Profiles, Roles, Permission Sets, and Sharing Rules to protect sensitive data.</p>
                     </div>
-                    <!-- Skill Card 5 -->
-                     <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
+                    <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
                         <div class="flex items-center mb-4">
                             <i class="fa-solid fa-users-gear text-3xl text-rose-400 mr-4"></i>
                             <h3 class="text-xl font-bold text-white">User Adoption</h3>
                         </div>
                         <p class="text-gray-400">Focused on change management, creating intuitive user experiences, and providing training to maximize user adoption and ROI.</p>
                     </div>
-                    <!-- Skill Card 6 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
                         <div class="flex items-center mb-4">
                            <i class="fa-solid fa-cubes text-3xl text-fuchsia-400 mr-4"></i>
-                            <h3 class="text-xl font-bold text-white">Testing & Deployment</h3>
-                        </div>
+                                <h3 class="text-xl font-bold text-white">Testing & Deployment</h3>
+                            </div>
                         <p class="text-gray-400">Experienced in managing deployments from sandboxes to production using change sets, ensuring rigorous testing and seamless releases.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="py-20 bg-gray-900/50">
+        <section id="certifications" class="py-20 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Certifications</h2>
+                    <p class="text-gray-400 mt-2">My professional accreditations.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
+                        <div class="flex items-center mb-4">
+                            <img src="https://i.postimg.cc/CZs2H6Tt/Salesfore-Admin-logo.png" alt="Salesforce Certified Administrator Logo" class="h-12 w-auto object-contain mr-4">
+                            <h3 class="text-xl font-bold text-white">Salesforce Certified Administrator</h3>
+                        </div>
+                        <p class="text-gray-400">Demonstrates foundational knowledge of Salesforce administration, configuration, and management.</p>
+                    </div>
+                    <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
+                        <div class="flex items-center mb-4">
+                            <img src="https://i.postimg.cc/sQfNn932/service-cloud-logo.png" alt="Salesforce Service Cloud Consultant Logo" class="h-12 w-auto object-contain mr-4">
+                            <h3 class="text-xl font-bold text-white">Salesforce Service Cloud Consultant</h3>
+                        </div>
+                        <p class="text-gray-400">Validates expertise in designing and implementing Service Cloud solutions that meet customer business requirements.</p>
+                    </div>
+                    <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl section-glow card-hover">
+                        <div class="flex items-center mb-4">
+                            <img src="https://i.postimg.cc/gnWJtnfZ/cbap-logo.png" alt="Certified Business Analysis Professional (CBAP) Logo" class="h-12 w-auto object-contain mr-4">
+                            <h3 class="text-xl font-bold text-white">Certified Business Analysis Professional (CBAP)</h3>
+                        </div>
+                        <p class="text-gray-400">Recognizes advanced knowledge and extensive experience in the field of business analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-white">My Portfolio</h2>
@@ -201,7 +219,6 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                    <!-- Project 1 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg card-hover">
                         <img class="w-full h-56 object-cover" src="https://placehold.co/600x400/111827/7DD3FC?text=Project+1" alt="Project Thumbnail">
                         <div class="p-6">
@@ -215,7 +232,6 @@
                         </div>
                     </div>
                     
-                    <!-- Project 2 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg card-hover">
                         <img class="w-full h-56 object-cover" src="https://placehold.co/600x400/111827/A78BFA?text=Project+2" alt="Project Thumbnail">
                         <div class="p-6">
@@ -229,7 +245,6 @@
                         </div>
                     </div>
 
-                    <!-- Project 3 -->
                     <div class="bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg card-hover">
                         <img class="w-full h-56 object-cover" src="https://placehold.co/600x400/111827/5EEAD4?text=Project+3" alt="Project Thumbnail">
                         <div class="p-6">
@@ -246,7 +261,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="py-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
@@ -277,7 +291,6 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="bg-gray-900/50 border-t border-gray-800">
         <div class="container mx-auto px-6 py-8 text-center text-gray-400">
             <p>&copy; 2024 Chimamaka Ofodile. All Rights Reserved.</p>
